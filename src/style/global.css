@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Cantarell,'Arial',Times, serif;
+    
+}
+body{
+    overflow-x: hidden;
+   
+    background-color: var(--preta);
+    height: 100%;
+}

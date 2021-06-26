@@ -1,0 +1,81 @@
+.headerContainer{
+    margin: 0 53.8px;
+    height: 68px;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    z-index: 999;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoContainer img{
+    width: 120px;
+}
+.menuContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+.menuContainer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+   
+}
+.menuContainer ul li{
+    list-style-type: none;
+   
+    margin: 0 10px;
+}
+.menuContainer ul li a{ 
+    
+    color: rgb(255, 255, 255);
+}
+.menuContainer ul li a:hover{ 
+    font-weight: bold;
+   
+}
+
+.secundaryMenu{
+    display: flex;
+   
+   align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    right: 0;
+ 
+}
+.secundaryMenu span{
+    margin-top: 23px;
+    
+    color:white;
+    font-weight: bolder;
+    
+}
+.secundaryMenu span:nth-child(2){
+    margin:0 20px;
+    margin-top: 23px;
+
+}
+.photoPerfilMenu{
+    
+    
+    width: 50px;
+    height: 30px;
+    
+    
+    
+}
+.photoPerfilMenu img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
