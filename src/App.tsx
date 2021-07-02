@@ -1,6 +1,6 @@
 import {Header} from './components/header/Header';
 import {Main} from './components/main/Main'
-import {Section1} from './components/section/Section1'
+import Section1 from './components/section/Section1'
 import './style/global.css';
 
 
