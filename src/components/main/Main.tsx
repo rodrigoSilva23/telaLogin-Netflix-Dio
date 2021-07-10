@@ -23,12 +23,13 @@ export function Main() {
     return (
         <main className={styles.main}>
            <video width="100%" height="100%" autoPlay loop muted = {isMuted}>
-                 <source src="../video/S2.mp4" type="video/mp4"/>
+                 <source src="../video/onepiece.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
             <div className={styles.muturityRating}>
                 <span>18</span>
             </div>
+            
                 <div className={styles.styleMute} onClick={muted}>
                     { isMuted ?(
                     <div><VolumeMuteIcon/></div>
@@ -39,7 +40,7 @@ export function Main() {
             </div>
             <div className={styles.metaLayer}>
                 <div className={styles.titleWrapper}>
-                    <img src="./img/nos.jpeg" alt="nos" />
+                    <img src="./One-Piece.png" alt="One piece" />
 
                 </div>
                 <div className={styles.supplementalMessage}>
@@ -47,7 +48,7 @@ export function Main() {
 
                 </div>
                 <div className={styles.sinopses}>
-                        uma festa inesperada levou um jovem ao encontro de um anjo,<br/> e esse encontro mudou sua vida !!
+                um jovem que, inspirado por seu ídolo de infância e poderoso<br/> pirata Shanks, "o Ruivo", sai em uma jornada do mar East Blue <br/>para encontrar o famoso tesouro One Piece e proclamar-se<br/> o Rei dos Piratas.
                 </div>
                 <div className={styles.buttonsWrapper}>
                     <button><ArrowRightIcon  style={{ fontSize: 35 }}/>Assistir</button>
